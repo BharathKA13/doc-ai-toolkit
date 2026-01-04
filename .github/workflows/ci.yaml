@@ -1,4 +1,4 @@
-# .github/workflows/ci.yml
+# .github/workflows/ci.yml 
 name: Run Unit Tests
 
 on: [push, pull_request]
@@ -24,4 +24,3 @@ jobs:
       - name: Run unit tests
         run: |
           pytest tests/
-          
