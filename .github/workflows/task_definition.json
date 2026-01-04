@@ -1,14 +1,14 @@
 {
   "family": "documentaitoolkittd",
   "networkMode": "awsvpc",
-  "executionRoleArn": "arn:aws:iam::137924571042:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::675295180311:role/ecsTaskExecutionRole",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "1024",
   "memory": "8192",
   "containerDefinitions": [
     {
       "name": "document-portal-container",
-      "image": "137924571042.dkr.ecr.ap-southeast-2.amazonaws.com/document-ai-toolkit",
+      "image": "675295180311.dkr.ecr.ap-southeast-2.amazonaws.com/document-ai-toolkit",
       "cpu": 1024,
       "essential": true,
       "portMappings": [
@@ -29,12 +29,12 @@
       "secrets": [
         {
           "name": "GROQ_API_KEY",
-          "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:137924571042:secret:APIkeysDocAIToolkit-TRMYuX:GROQ_API_KEY"
+          "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:675295180311:secret:apikeysdocaitk-3eKbv3:GROQ_API_KEY"
         },
         
         {
           "name": "GOOGLE_API_KEY",
-          "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:137924571042:secret:APIkeysDocAIToolkit-TRMYuX:GOOGLE_API_KEY"
+          "valueFrom": "arn:aws:secretsmanager:ap-southeast-2:675295180311:secret:apikeysdocaitk-3eKbv3:GOOGLE_API_KEY"
         }
         
       ],
