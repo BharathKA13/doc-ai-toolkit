@@ -34,10 +34,13 @@ Advanced retrieval techniques are applied to improve response relevance and redu
 ## 🔧 Core Technologies
 - **LLMs:** Large Language Models for response generation  
 - **RAG Framework:** Retrieval-Augmented Generation pipelines  
-- **Vector Stores:** FAISS / Chroma  
-- **Embeddings:** Hugging Face / OpenAI-compatible models  
+- **Vector Stores:** FAISS with Indexing
+- **Embeddings:** Google Generative AI Embeddings (AI Studio & Gemini API)
 - **Backend:** FastAPI for model serving  
-- **UI:** Streamlit / Gradio  
+- **UI:** Streamlit / Gradio
+- **Testing:** Unit Test Cases Post Commit
+- **Logging and Exception:** Structlog
+- **Evaluation:** DeepEval based LLM evaluation
 - **Deployment:** Dockerized services with CI/CD support using github-actions, and AWS ECR+ECS FARGATE
 
 ---
@@ -45,8 +48,8 @@ Advanced retrieval techniques are applied to improve response relevance and redu
 ## 📂 Workflow
 1. User uploads or selects documents  
 2. Documents are parsed, chunked, and indexed  
-3. User asks questions via chat interface  
-4. Relevant document context is retrieved  
+3. User can request complete analysis of document, can compare 2 documents, and can asks questions via chat interface  
+4. Relevant document context (RAG) is retrieved for chat service only
 5. LLM generates an answer grounded in retrieved content  
 6. Response is returned with conversational continuity  
 
