@@ -38,7 +38,7 @@ Advanced retrieval techniques are applied to improve response relevance and redu
 - **Embeddings:** Hugging Face / OpenAI-compatible models  
 - **Backend:** FastAPI for model serving  
 - **UI:** Streamlit / Gradio  
-- **Deployment:** Dockerized services with CI/CD support  
+- **Deployment:** Dockerized services with CI/CD support using github-actions, and AWS ECR+ECS FARGATE
 
 ---
 
@@ -53,6 +53,7 @@ Advanced retrieval techniques are applied to improve response relevance and redu
 ---
 
 ## 📈 Use Cases
+- Implemented for custom design documents of automotive to assist engineers in real time.
 - Technical documentation assistants  
 - Regulatory and compliance document chat  
 - Knowledge-base Q&A systems  
