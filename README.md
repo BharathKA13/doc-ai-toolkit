@@ -78,5 +78,4 @@ Advanced retrieval techniques are applied to improve response relevance and redu
 
 ---
 
-Run Public IP:
-http://3.106.129.139:8080/
+New Run Public IP:
