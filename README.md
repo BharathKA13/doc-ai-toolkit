@@ -78,4 +78,4 @@ Advanced retrieval techniques are applied to improve response relevance and redu
 
 ---
 
-New Run Public IP:
+The faiss index is persisted on disk, but every time we load it, it is reconstructed and used in memory (RAM) for searching.
