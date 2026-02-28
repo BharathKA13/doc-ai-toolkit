@@ -1,7 +1,12 @@
 # AI-Powered Document Intelligence Platform
 
 > An intelligent document processing and chat system built with **LangChain**, **FAISS**, and **LLMs** for conversational document analysis, comparison, and question-answering.
-
+> 
+![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.120-009688?logo=fastapi&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-0.6.8-orange)
+![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
+![AWS ECS](https://img.shields.io/badge/AWS%20ECS-Deployed-FF9900?logo=amazonaws&logoColor=white)
 ## 🎯 Overview
 
 **Document Portal** is a FastAPI-based backend service that enables intelligent document processing through three core capabilities:
