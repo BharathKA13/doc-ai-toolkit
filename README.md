@@ -1,4 +1,4 @@
-# Document Portal - AI-Powered Document Intelligence Platform
+# AI-Powered Document Intelligence Platform
 
 > An intelligent document processing and chat system built with **LangChain**, **FAISS**, and **LLMs** for conversational document analysis, comparison, and question-answering.
 
