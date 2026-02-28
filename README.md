@@ -485,17 +485,6 @@ Contributions welcome! Please:
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
----
-
-## 📞 Support
-
-For issues, questions, or suggestions:
-- Open an issue on GitHub
-- Check existing documentation
-- Review logs in `logs/` directory for debugging
-
----
-
 ## 🔍 Troubleshooting
 
 ### Issue: "FAISS index not found"
